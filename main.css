@@ -1,7 +1,31 @@
 body {
-  background-color: red;
-  width: 100%;
-  display: flex;
-  justify: center;
+  display: flexbox;
   flex-direction: row;
+  width: auto;
+  justify-content: center;
 }
+
+header, footer {
+  text-align: center;
+}
+
+main {
+  display: flexbox;
+}
+
+#tribute-info {
+  text-align: center;
+  display: flexbox;
+  width: 50%;
+  justify-self: center;
+}
+
+#img-div {
+  text-align: center;
+}
+
+ul {
+  text-align: start;
+}
+
+img {max-width:100%;}
